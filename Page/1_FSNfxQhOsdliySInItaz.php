@@ -1,5 +1,6 @@
 <?php
-    $hintMessage = "Test hint message."
+    include "../Shortcut_HTML/buttonMessage.php";
+    $hintMessage = "Too hard. Highlight it !";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -30,6 +31,8 @@
 </head>
 <body>
     <?php include "../Shortcut_HTML/titleAndHintButton.php" ?>
+
+    <a onclick="alert('<?php echo $wrongButtonMessage[random_int(0, 9)] ?>')" href=""><?php echo $buttonName ?></a>
 
 </body>
 </html>
