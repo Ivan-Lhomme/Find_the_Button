@@ -3,10 +3,14 @@ html{
     color: white;
     font-family: COMIC, sans-serif;
 h1{
-    color: #FF0000;
+    color: red;
     font-family: Impact, sans-serif;
     font-size: 350%;
 }
-a:hover{
-    cursor: pointer;
+a{
+    color: white;
+    text-decoration: none;
+}
+.secret_button:hover{
+    cursor: text;
 }

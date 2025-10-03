@@ -1,5 +1,5 @@
 <?php 
-    include "PHP/buttonMessage.php";
+    include "Shortcut_HTML/buttonMessage.php";
     $indiceMessage = ["The red is pretty no ?", "What do you must find in this game ?"];
 ?>
 <!DOCTYPE html>
@@ -28,13 +28,13 @@
 </head>
 
 <body>
-    <h1>FIND THE <a id="a1" onclick="alert('<?php echo $rightButtonMessage ?>')">BUTTON !</a></h1>
+    <h1>FIND THE <a style="color: red" class="secret_button" onclick="alert('<?php echo 'Now the game start, good luck.' ?>')" href="Page/2_FSNfxQhOsdliySInItaz.php">BUTTON !</a></h1>
 
     <div>
 
-        <h2>Tu dois trouver tout les boutons cachés sur ce site pour gagner !</h2>
-        <p>Pour <a onclick="alert('<?php echo $wrongButtonMessage[random_int(0, 5)] ?>');">commencer</a> le jeu tu dois trouver le <a onclick="alert('<?php echo $wrongButtonMessage[random_int(0, 5)] ?>')">bouton</a>.</p>
-        <p>Deplus tu as le droit à des <a onclick="alert('<?php echo $indiceMessage[random_int(0, 1)] ?>')">indices</a> en haut à droite de la page.</p>
+        <h2>You must find all the button on the site to win !</h2>
+        <p>To <a onclick="alert('<?php echo $wrongButtonMessage[random_int(0, 9)] ?>')" href="">start</a> the game you must find the right <a onclick="alert('<?php echo $wrongButtonMessage[random_int(0, 9)] ?>')" href="">button</a>.</p>
+        <p>You also have access to <a onclick="alert('<?php echo $indiceMessage[random_int(0, 1)] ?>')" href="">hint</a> on the top right of the page.</p>
 
     </div>
 </body>
