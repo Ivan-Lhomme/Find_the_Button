@@ -32,7 +32,7 @@
 
     <div>
 
-        <h2>You must find all the button on the site to win !</h2>
+        <h2>You must find all the <a onclick="alert('<?php echo $wrongButtonMessage[random_int(0, 9)] ?>')" href="">button</a> on the site to win !</h2>
         <p>To <a onclick="alert('<?php echo $wrongButtonMessage[random_int(0, 9)] ?>')" href="">start</a> the game you must find the right <a onclick="alert('<?php echo $wrongButtonMessage[random_int(0, 9)] ?>')" href="">button</a>.</p>
         <p>You also have access to <a onclick="alert('<?php echo $indiceMessage[random_int(0, 1)] ?>')" href="">hint</a> on the top right of the page.</p>
 
