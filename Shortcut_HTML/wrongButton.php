@@ -1,0 +1,1 @@
+<a onclick="alert('<?php echo $wrongButtonMessage[random_int(0, 9)] ?>')" href=""><?php echo $buttonName ?></a>
