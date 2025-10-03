@@ -9,6 +9,11 @@
     body{
         text-align: center;
     }
+    footer{
+        text-align: left;
+        position: absolute;
+        bottom: 0;
+    }
     div{
         margin-top: 5%;
     }
@@ -33,5 +38,9 @@
 
     </div>
 </body>
+
+<footer>
+    <b>Any copy or reproduction is allowed.</b> Start the 1 september 2025 and finish the ... .
+</footer>
 
 </html>
