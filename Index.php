@@ -1,6 +1,6 @@
 <?php 
     include "PHP/buttonMessage.php";
-    $indiceMessage = ["Le rouge est jolie non ?", "Que doit-tu trouver dans ce jeu ?"];
+    $indiceMessage = ["The red is pretty no ?", "What do you must find in this game ?"];
 ?>
 <!DOCTYPE html>
 <html lang="en">
