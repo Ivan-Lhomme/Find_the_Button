@@ -1,5 +1,5 @@
 <style>
-    .hintButton{
+    #hintButton{
         position: fixed;
         top: 10%;
         right: 3%;
@@ -11,7 +11,8 @@
         color: red;
         border-color: white;
         font-size: medium;
+        cursor: pointer;
     }
 </style>
 <h1 style="text-align: center;">FIND THE BUTTON !</h1>
-<button class="hintButton" onclick="alert('<?php echo $hintMessage ?>')"> <b>HINT</b> </button>
+<button id="hintButton" onclick="alert('<?php echo $hintMessage ?>')"> <b>HINT</b> </button>
