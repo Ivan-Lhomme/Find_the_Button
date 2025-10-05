@@ -26,7 +26,7 @@
         }
     </style>
 
-    <a id="test" style="color: black;" onclick="alert('<?php echo $rightButtonMessage ?>')" href="">.</a>
+    <a id="test" style="color: black;" onclick="alert('<?php echo $rightButtonMessage ?>')" href="2_oanEoLbQIQqwhTtIxTmJ.php">.</a>
 
 </body>
 </html>
