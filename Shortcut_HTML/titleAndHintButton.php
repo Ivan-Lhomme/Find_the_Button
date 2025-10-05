@@ -13,6 +13,11 @@
         font-size: medium;
         cursor: pointer;
     }
+    h1{
+        color: red;
+        font-family: Impact, sans-serif;
+        font-size: 350%;
+    }
 </style>
-<h1 style="text-align: center;">FIND THE BUTTON !</h1>
+<h1 id="title" style="text-align: center;">FIND THE BUTTON !</h1>
 <button id="hintButton" onclick="alert('<?php echo $hintMessage ?>')"> <b>HINT</b> </button>
