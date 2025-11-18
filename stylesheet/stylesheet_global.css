@@ -1,0 +1,46 @@
+/* global */
+html{
+    background-color: black;
+    font-family: COMIC, sans-serif;
+}
+h1{
+        font-family: Impact, sans-serif !important;
+        font-size: clamp(1.6rem, 6vw, 350%);
+        color: red;
+        text-align: center;
+}
+h2{
+    font-size: clamp(0.5rem, 4vw, 350%);
+    color: lightgrey;
+    text-align: center;
+}
+p{
+    font-size: clamp(0.4rem, 3vw, 350%);
+    color: lightgrey;
+    text-align: center;
+}
+a{
+    color: lightgrey;
+    text-decoration: none;
+}
+
+/* class */
+.secret_button:hover{
+    cursor: text;
+}
+
+/* id */
+#hint_Button{
+    position: fixed;
+    top: 10%;
+    right: 3%;
+    border-top-right-radius: 0.8em;
+    border-bottom-left-radius: 0.8em;
+    border-bottom-right-radius: 0.5em;
+    border-top-left-radius: 0.5em;
+    background-color: black;
+    color: red;
+    border-color: white;
+    font-size: clamp(0.7rem, 3vw, 350%);
+    cursor: pointer;
+}
