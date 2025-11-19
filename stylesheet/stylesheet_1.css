@@ -2,10 +2,10 @@ a{
     position: relative;
     right: -40%;
 }
-#right_button{
+#rightButton{
     color: black;
     font-size: 0.5rem;
-}
-#right_button:hover{
     cursor: default;
+    position: relative;
+    width: fit-content;
 }
