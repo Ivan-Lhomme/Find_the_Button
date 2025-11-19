@@ -17,7 +17,7 @@
 
 <body>
     <header>
-        <h1>FIND THE <a style="color: red" class="secret_button" onclick="alert('<?php echo 'Now the game start. Good luck !' ?>')" href="Page/1_FSNfxQhOsdliySInItaz.php">BUTTON !</a></h1>
+        <h1>FIND THE <a style="color: red" class="secret_button" onclick="alert('<?php echo 'Now the game start. Good luck !' ?>')" href="Pages/1_FSNfxQhOsdliySInItaz.php">BUTTON !</a></h1>
     </header>
 
     <section>

@@ -7,3 +7,17 @@ img{
 area{
     cursor: pointer ;
 }
+textarea{
+    resize: none;
+    background-color: rgba(180, 180, 180, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 1vw;
+    color: black;
+    display: block;
+    margin: 0 auto;
+    font-size: 5vw;
+    width: 40vw;
+    height: 5vw;
+    scrollbar-width: none;
+    text-align: center;
+}
