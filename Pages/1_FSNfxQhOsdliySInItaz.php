@@ -16,7 +16,7 @@
 <body>
     <?php include "../Shortcut_HTML/titleAndHintButton.php" ?>
 
-    <a id="rightButton"  onclick="alert('<?php echo $rightButtonMessage ?>')" href="2_oanEoLbQIQqwhTtIxTmJ.php">.</a>
+    <a id="rightButton"  onclick="alert('<?= $rightButtonMessage ?>')" href="2_oanEoLbQIQqwhTtIxTmJ.php">.</a>
 
     <script src="../script/secretButtonShift.js"></script>
 </body>

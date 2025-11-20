@@ -17,14 +17,14 @@
 
 <body>
     <header>
-        <h1>FIND THE <a style="color: red" class="secret_button" onclick="alert('<?php echo 'Now the game start. Good luck !' ?>')" href="Pages/1_FSNfxQhOsdliySInItaz.php">BUTTON !</a></h1>
+        <h1>FIND THE <a style="color: red" class="secret_button" onclick="alert('<?= 'Now the game start. Good luck !' ?>')" href="Pages/1_FSNfxQhOsdliySInItaz.php">BUTTON !</a></h1>
     </header>
 
     <section>
 
-        <h2>You must find all the <a onclick="alert('<?php echo $wrongButtonMessage[random_int(0, 9)] ?>')" href="">button</a> on the site to win !</h2>
-        <p>To <a onclick="alert('<?php echo $wrongButtonMessage[random_int(0, 9)] ?>')">start</a> the game you must find the right <a onclick="alert('<?php echo $wrongButtonMessage[random_int(0, 9)] ?>')" href="">button</a>.</p>
-        <p>You also have access to <a onclick="alert('<?php echo $indiceMessage[random_int(0, 1)] ?>')" href="">hint</a> on the top right of the page.</p>
+        <h2>You must find all the <a onclick="alert('<?= $wrongButtonMessage[random_int(0, 9)] ?>')" href="">button</a> on the site to win !</h2>
+        <p>To <a onclick="alert('<?= $wrongButtonMessage[random_int(0, 9)] ?>')">start</a> the game you must find the right <a onclick="alert('<?= $wrongButtonMessage[random_int(0, 9)] ?>')" href="">button</a>.</p>
+        <p>You also have access to <a onclick="alert('<?= $indiceMessage[random_int(0, 1)] ?>')" href="">hint</a> on the top right of the page.</p>
 
     </section>
 
