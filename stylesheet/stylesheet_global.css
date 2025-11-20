@@ -5,17 +5,17 @@ html{
 }
 h1{
         font-family: Impact, sans-serif !important;
-        font-size: clamp(1.6rem, 6vw, 350%);
+        font-size: 6vw;
         color: red;
         text-align: center;
 }
 h2{
-    font-size: clamp(0.5rem, 4vw, 350%);
+    font-size: 3vw;
     color: lightgrey;
     text-align: center;
 }
 p{
-    font-size: clamp(0.4rem, 3vw, 350%);
+    font-size: 2.5vw;
     color: lightgrey;
     text-align: center;
 }
@@ -32,15 +32,13 @@ a{
 /* id */
 #hint_Button{
     position: fixed;
-    top: 10%;
-    right: 3%;
-    border-top-right-radius: 0.8em;
-    border-bottom-left-radius: 0.8em;
-    border-bottom-right-radius: 0.5em;
-    border-top-left-radius: 0.5em;
+    top: 10vw;
+    right: 4vw;
+    border-width: 0.5vw;
+    border-color: white;
+    border-radius: 0.5em 0.8em;
     background-color: black;
     color: red;
-    border-color: white;
-    font-size: clamp(0.7rem, 3vw, 350%);
+    font-size: 3.2vw;
     cursor: pointer;
 }
